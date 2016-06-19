@@ -1,0 +1,132 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* my stuff */
+
+/*  table.table.table-bordered.table-striped {
+    width: 1000px;
+  }*/
+
+  #tablesWrapper {
+    display: inline-block;
+  }
+
+  #header {
+    position: relative; 
+    height: 90px; 
+  }
+
+  #header-ad {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  #gratipay {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .green {
+    border: 1px solid #286500;
+    color: #286500;
+    background-color: #53d000;
+  }
+
+  .yellow-green {
+    border: 1px solid #286500;
+    color: #286500;
+    background-color: #C8EA00;
+  }
+ 
+  .yellow {
+    border: 1px solid #6f6e00;
+    color: #6f6e00;
+    background-color: yellow;
+  }
+
+  .orange {
+    border: 1px solid #b20000;
+    color: #b20000;
+    background-color: #FFC543;
+  }
+
+  .red {
+    border: 1px solid #b20000;
+    color: #b20000;
+    background-color: #ff8989;
+  }
+
+ 
+  #contribute-container {
+
+  }
+ 
+  h1, h2, h3 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .navbar-inner {
+    border-radius: 0;
+  }
+
+  #socialContainer {
+    margin-top: 10px;
+    height: 67px;
+  }
+  #socialContainer iframe {
+    background-color: transparent;
+  }
+  #socialContainer > div {
+    padding-right: 5px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #socialContainer #facebookContainer {
+    padding-right: 0px;
+  }
+
+  #legendTable {
+    width: auto; 
+  }
+    
+  .gittip-widget {
+    float: right;
+  }
+
+  #comments {
+
+  }
+
+  code, pre {
+    border-radius: 0;
+  }
+
